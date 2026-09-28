@@ -105,7 +105,6 @@ h2, h3{
     object-fit: cover; /*画像の縦横比を維持*/
     height: 200px;
 }
-
 #gallery .gallery-list .gallery img:hover{
     transform: scale(1.05); /*カーソルが乗ったら1.05倍までおおきくなる*/
 }
@@ -116,7 +115,6 @@ h2, h3{
     display: flex; 
     justify-content: center; 
 }
-
 #ec .contact-body p {
     margin: 0;
 }
