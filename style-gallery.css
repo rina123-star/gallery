@@ -56,6 +56,15 @@ h2, h3{
 .page-nav ul a:hover{
     background-color: rgba(250, 250, 250, 0.8); /*カーソルを乗せたとき色がつく*/
 }
+@media (max-width: 600px){
+    .page-nav ul{
+        gap: 0.3rem;
+    }
+    .page-nav ul a{
+        padding: 0.3rem 0.4rem;
+        font-size: 0.85rem;
+    }
+}
 #char{
     margin: 0 0 1rem;
 }
